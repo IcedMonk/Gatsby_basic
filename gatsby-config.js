@@ -11,6 +11,14 @@ module.exports = {
 },
   /* Your site config here */
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `4vhsfefyiqos`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `JSX_9laEWA32Iw8euZJDwDIxBMcLDewvJsgOZ78IKZs`,
+      },
+    },
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
