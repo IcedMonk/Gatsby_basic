@@ -11,7 +11,7 @@ const blogPage = () => {
   query {
     allContentfulBlogPost (
       sort: {
-        fields: publishedDate,
+        fields: publishedDat,
         order: DESC
       }
     ) {
